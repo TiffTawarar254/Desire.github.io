@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins|Quicksand&display=swap');
+
+html{
+	max-height: 100vh;
+	max-width:90vw;
+	font-size:.7rem;
+	font-family: 'Poppins', sans-serif;
+}
+body{
+	margin:0;
+	padding:0;
+}
+.job, .name{
+	font-family: 'Quicksand', sans-serif;
+}
+.job{
+	color:#FFA500;
+}
+.name, p{
+	color:#0C1C6D;
+}
+
+.top-bar{
+	display: flex;
+	width:85vw;
+	padding:20px;
+	justify-content: space-between;
+}
+
+main{
+	display:flex;
+	font-family: 'Poppins', sans-serif;
+
+}
+img{
+	width:41vw;
+	height:60vh;
+	margin-left:30px;
+	margin-right:0;
+	padding:0;
+
+}
+a{
+	text-decoration: none;
+	color:#8E9DF0;
+}
+p{
+	font-size: .85rem;
+}
+.line{
+	width:100px;
+	color:gray;
+}
+a:hover{
+	color:#0C1C6D;
+	transform:translateX(1.1);
+}
+.gray{
+	color:#C4C4C4;
+}
+.one{
+	width:10px;
+	height:10px;
+	border-radius:50%;
+	display: inline-block;
+	padding:2px;
+}
+.orange-dot{
+	background-color:#FFA500;
+	} 
+	.orange{
+	color:#FFA500;
+	} 
+
+ .light-blue{
+	color:#8E9DF0;	
+		}
+		.light-blue-dot{
+			background-color:#8E9DF0;
+		} 
+		.blue{
+			color:#0C1C6D;
+			font-size:1.5rem;
+			font-weight:bolder;
+		}
+ .dark-blue {
+	color:#0C1C6D;
+	} 
+	.dark-blue-dot{
+		background-color:#0C1C6D;
+	}
+.gray-dot{
+	background-color:#c4c4c4;
+}
+ p.gray{
+	color:#c4c4c4;
+	font-size:.9rem;
+}
+.message{
+	font-size:.5rem;
+}
+.main{
+	
+}
+.intro{
+	line-height: 4px;
+	font-size:.8rem;
+	margin-top:10px;
+
+}
+.main{
+	width:60vw;
+	height:60vh;
+	margin-left:2vw;
+	margin-top:8vh;
+	padding:0;
+	-webkit-transition:all 3s ease-in-out;
+	-webkit-transform: translateZ(0);
+}
+
+.more{
+	padding:8px 0;
+	
+	}
+
+.span{
+	display:none;
+	font-family: 'Poppins', sans-serif;
+
+}
+.line{
+	border-radius: 10px;
+	background:gray;
+	padding:1px;
+	width:20px;
+	height:2px;
+	position:absolute;
+	top:60px;
+}
+.line1{
+	border-radius: 10px;
+	background:gray;
+	padding:2px;
+	width:40px;
+	height:3px;
+	position:absolute;
+	bottom:20px;
+	right:140px;
+}
+.proj{
+	float:right;
+	color:#0C1C6D;
+}
+.ecomm-title{
+	font-weight:400;
+	padding:10px;
+	color:#8E9DF0;
+	letter-spacing: 1px;
+}
+.desire-snip{
+	display: flex;
+}
+.explanation{
+	margin-left:10vw;
+}
+.border{
+	border:1px solid black;
+	-webkit-transition:all 1s ease-in-out;
+}
+.border:hover{ transform: scale(1.1); }
+.cta{
+	color:#8E9DF0;
+}
+.picture{
+
+	-webkit-transition:all 4s ease-in-out;
+	-webkit-transform: translateZ(0);
+		
+}

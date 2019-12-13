@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Tiffany's Homepage  | Create deep and empathetic  user-centric web experiences around your product  for your users | tifftawarar@gmail.com</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale = 1.0">
+		<link rel="stylesheet" type="text/css" href="index.css">
+		<link rel="icon" type="images/gif" href="logo1.png">
+
+	</head>
+	<body>
+		<header>
+			<div class = "top-bar">
+				<div class = "intro">
+					<h2 class = "name">Tiffany Tawarar</h2>
+					<h2 class = "job">Front-End Web Developer</h2>
+				</div>
+				<nav>
+				<p><a href = "#">Menu</a></p>
+				<div class = "line"></div>
+				</nav>
+			</div>
+		</header>
+		<main>
+			<header class = "main">
+				<div class = "message">
+					<h1 class = ".light-blue-dot">Hey</h1>
+					<h1 class = "text" id = "text"><class = "light-blue-dot">I'm a</class>
+						<span class = "orange span" display:initial>Front End Developer</span>
+						<span class = "light-blue span">Brand Strategist</span>
+						<span class = "dark-blue span">Digital Marketer</span>
+						<span class = "gray span">Story Teller</span>
+				</div>
+			
+				<div class = "more">
+
+					<h3 class = "cta">Together,Let us:</h3>
+					<p class = "proj"><span class = "gray">Create </span><span class = "blue">Deep</span><span class = "gray"> and </span> <span class = "blue">empathetic</span><span class = "gray">, User-centric web</span><span class = "blue"> experiences</span><span class = "gray"> around</span><span class = "blue"> your product</span> <span class ="gray"> for</span><span class = "blue"> your users.</span></p>
+				</div>
+				<div class = "dots">
+					<div class="orange-dot one"></div>
+					<div class="light-blue-dot one"></div>
+					<div class="dark-blue-dot one"></div>
+					<div class="gray-dot one"></div>
+				</div>
+			</header>
+			<section>
+				<img class = "picture" src="pic1.png">
+				<h1 class = "proj"><a href = "">Projects</a></h1>
+				<div class = "line1"></div>
+			</section>
+			
+		</main>
+		<header>
+			<div class = "ecomm-title"> 
+				<h1>Ecommerce Website: DESIRE</h1>
+			</div>
+			<div class = "desire-snip">
+				<div class = "desire-image">
+					<img class = "border" src="bgreal.png" href = "desire.html">
+				</div>
+				<div class = "explanation">
+					<p>Client: Edyoda</p>
+					<p>Nature:E-Commerce</p>
+					<p>My role on the project:Front End Web Development</p>
+					<p>Website Url:<a href = "desire.html" target="_blank">www.desire.com</a>
+					<p>This is a project that took 2 months from ideation to the stage it went live on the web.
+Edyoda, a Software Start-Up based in India,contracted me as a freelance developer, so that i could develop this fictional site.</p>
+<p>I was going for a trendy,clean,urban and chic design with a premium feel.
+This is a website that targets the Middle-class American and European economy, aged 16-35 years.Desire, the brand, prides itself in selling desire through clothes and accessories.</p>
+				</div>
+			</div>
+		</header>
+		<script type="text/javascript">
+			var text = document.getElementById('text');
+			var word = document.getElementsByClassName('span');
+			var i = 0;
+			function slide(){
+				word[i].style.display = 'none';
+				i = (i + 1)%word.length;
+				word[i].style.display = 'initial';
+			}
+			setInterval(slide,1000);
+		</script>
+	</body>
+
+</html>
